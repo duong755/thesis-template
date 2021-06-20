@@ -2,29 +2,31 @@
 \ProvidesClass{thesis}
 \LoadClass[13pt]{article}
 
-\usepackage[utf8]{inputenc}
-\usepackage[utf8]{vietnam}
-\usepackage[a4paper, top=2.5cm, right=2cm, bottom=3cm, left=3cm]{geometry}
-\usepackage{graphicx}
-\usepackage{mathptmx}
-\usepackage{enumitem}
-\usepackage{setspace}
-\usepackage{fancyhdr}
-\usepackage[unicode,hidelinks]{hyperref}
-\usepackage{titlesec}
-\usepackage{xurl}
-\usepackage{tocloft}
-\usepackage{indentfirst}
-\usepackage{placeins}
-\usepackage{caption}
-\usepackage[numbers]{natbib}
-\usepackage{tikz}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[utf8]{vietnam}
+\RequirePackage[a4paper, top=2.5cm, right=2cm, bottom=3cm, left=3cm]{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{mathptmx}
+\RequirePackage{enumitem}
+\RequirePackage{setspace}
+\RequirePackage{fancyhdr}
+\PassOptionsToPackage{hyphens}{url}
+\RequirePackage[unicode,hidelinks]{hyperref}
+\RequirePackage[unicode,hidelinks]{hyperref}
+\RequirePackage{titlesec}
+\RequirePackage{xurl}
+\RequirePackage{tocloft}
+\RequirePackage{indentfirst}
+\RequirePackage{placeins}
+\RequirePackage{caption}
+\RequirePackage[numbers]{natbib}
+\RequirePackage{tikz}
 
 \usetikzlibrary{calc}
 
 % scale fontsize
 % 13/12 = 1.0833333333333333
-\usepackage{relsize} 
+\RequirePackage{relsize} 
 \relscale{1.0833333333333333}
 
 \renewcommand{\cfttoctitlefont}{\hspace*{\fill}\bf\Large}
