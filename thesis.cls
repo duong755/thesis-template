@@ -7,13 +7,12 @@
 \usepackage[a4paper, top=2.5cm, right=2cm, bottom=3cm, left=3cm]{geometry}
 \usepackage{graphicx}
 \usepackage{mathptmx}
-\usepackage{minted}
 \usepackage{enumitem}
 \usepackage{setspace}
 \usepackage{fancyhdr}
 \usepackage[unicode,hidelinks]{hyperref}
 \usepackage{titlesec}
-\usepackage{url}
+\usepackage{xurl}
 \usepackage{tocloft}
 \usepackage{indentfirst}
 \usepackage{placeins}
