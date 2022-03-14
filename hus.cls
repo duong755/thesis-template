@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{hus}
-\LoadClass[14pt]{article}
+\LoadClass[13pt]{article}
 
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[a4paper, top=2.5cm, right=2cm, bottom=3cm, left=3cm]{geometry}
@@ -29,7 +29,8 @@
 \RequirePackage{relsize}
 \relscale{1.0833333333333333}
 
-\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\bf\Large}
+% centering table of contents
+% \renewcommand{\cfttoctitlefont}{\hspace*{\fill}\bf\Large}
 \renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\contentsname}{\MakeUppercase{Table of Contents}}
