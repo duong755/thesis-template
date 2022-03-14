@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{thesis}
+\ProvidesClass{uet}
 \LoadClass[13pt]{article}
 
 \RequirePackage[utf8]{inputenc}

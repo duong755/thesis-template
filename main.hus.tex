@@ -1,0 +1,120 @@
+\documentclass{hus}
+\usepackage{lipsum}
+
+\begin{document}
+
+\newgeometry{top=2cm,bottom=2.5cm,right=3cm}
+\begin{titlepage}
+
+	\begin{tikzpicture}[remember picture, overlay]
+		\draw[line width=1.2mm] ($(current page.north west) + (3cm, -3cm)$) rectangle ($(current page.south east) + (-3cm,3cm)$);
+		\draw[ultra thick] ($(current page.north west) + (3.15cm,-3.15cm)$) rectangle ($(current page.south east) + (-3.15cm,3.15cm)$);
+	\end{tikzpicture}
+
+	\begin{center}
+		\vspace{0.3cm}
+		{\bf\MakeUppercase{Vietnam National University, Hanoi}}         \\
+
+		{\bf\MakeUppercase{VNU University of Science}} \\
+		\vspace{1cm}
+		\includegraphics[width=100pt]{images/hus.png} \\
+		\vspace{1cm}
+		{\fontsize{14pt}{14pt}\textbf{Vu Tien Anh}} \\
+		\vspace{1cm}
+		{\fontsize{18pt}{18pt}\bf\MakeUppercase{Thesis title}}
+		\vfill{}
+		\vspace{1cm}
+		{\fontsize{14pt}{14pt}Submitted in partial fulfillment of the requirements for the degree of \\Bachelor of Science in \ldots Major \ldots} \\
+		{\fontsize{14pt}{14pt} (\ldots Program \ldots)} \\
+		\vfill{}
+	\end{center}
+\end{titlepage}
+
+\begin{titlepage}
+	\begin{tikzpicture}[remember picture, overlay]
+		\draw[line width=1.2mm] ($(current page.north west) + (3cm, -3cm)$) rectangle ($(current page.south east) + (-3cm,3cm)$);
+		\draw[ultra thick] ($(current page.north west) + (3.15cm,-3.15cm)$) rectangle ($(current page.south east) + (-3.15cm,3.15cm)$);
+	\end{tikzpicture}
+
+	\begin{center}
+		\vspace{0.3cm}
+		{\bf\MakeUppercase{Vietnam National University, Hanoi}}         \\
+
+		{\bf\MakeUppercase{VNU University of Science}} \\
+		\vspace{1cm}
+		\includegraphics[width=100pt]{images/hus.png} \\
+		\vspace{1cm}
+		{\fontsize{14pt}{14pt}\textbf{Vu Tien Anh}} \\
+		\vspace{1cm}
+		{\fontsize{18pt}{18pt}\bf\MakeUppercase{Thesis title}}
+		\vfill{}
+		\vspace{1cm}
+		{\fontsize{14pt}{14pt}Submitted in partial fulfillment of the requirements for the degree of \\Bachelor of Science in \ldots <Major> \ldots} \\
+		{\fontsize{14pt}{14pt} (\ldots Program \ldots)} \\
+		\vfill{}
+
+		% chktex-file 36
+		{\bf\fontsize{14pt}{14pt}Supervisor(s):\ldots}
+		\vspace{0.8cm}
+	\end{center}
+\end{titlepage}
+
+\restoregeometry{}
+\pagebreak
+
+
+\begin{titlepage}
+	\begin{center}
+		\bf{\MakeUppercase{Acknowledge}}
+	\end{center}
+
+
+\end{titlepage}
+\pagebreak
+
+
+
+\cleardoublepage{}
+\pagenumbering{gobble}
+
+\tableofcontents
+\pagebreak
+
+\listoffigures
+\pagebreak
+
+\cleardoublepage{}
+\pagenumbering{arabic}
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\section{Section 1}
+
+\subsection{Subsection 1.1}
+
+~\cite{texbook}~\cite{latex:companion}~\cite{latex2e}~\cite{knuth:1984}
+
+\subsection{Subsection 1.2}
+
+
+\newpage % tạo section mới là phải sang trang mới
+\section{Section 2}
+
+\subsection{Subsection 2.1}
+
+\subsection{Subsection 2.2}
+
+
+\newpage % tạo section mới là phải sang trang mới
+\section{Section 3}
+
+\subsection{Subsection 3.1}
+
+\subsection{Subsection 3.2}
+
+
+\pagebreak
+\bibliographystyle{mla}
+\bibliography{references}
+
+\end{document}
